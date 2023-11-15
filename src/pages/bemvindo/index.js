@@ -92,7 +92,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 5,
     borderColor: '#00B25A',
-    height: 50
+    height: 50,
+    fontWeight: 'bold'
   },
   textoBotao: {
     color: 'white',
