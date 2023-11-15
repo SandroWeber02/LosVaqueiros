@@ -23,6 +23,8 @@ export default function Home() {
           title="Safra 2022"
           subtitle="Aproveitando de 5.60%"
           buttonText="Ver"
+          onPress={() => (navigation.navigate('infoDetalhada'))}
+
         />
       </View>
 

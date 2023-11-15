@@ -3,7 +3,7 @@ import { Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 const botaoflutuante = ({ onPress, title }) => {
   return (
-    <TouchableOpacity style={styles.fab} onPress={onPress}>
+    <TouchableOpacity style={styles.fab} onPress={(onPress)}>
       <Text style={styles.fabText}>{title}</Text>
     </TouchableOpacity>
   );
