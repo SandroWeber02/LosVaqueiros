@@ -32,8 +32,7 @@ export default function Home() {
         <Card title="Safra 2020" subtitle="Aproveitando de 2.70%" buttonText="Ver" />
       </View>
 
-      <BotaoFlutuante onPress={() => navigation.navigate('agendar')}>
-        +
+      <BotaoFlutuante onPress={() => navigation.navigate('classificacao')}>
       </BotaoFlutuante>
     </>
   );

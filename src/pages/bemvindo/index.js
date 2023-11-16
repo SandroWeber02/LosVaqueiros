@@ -27,7 +27,7 @@ export default function BemVindo() {
         source={require('../assets/WhatsApp Image 2023-11-15 at 11.16.53 AM.jpeg')} // Substitua com o caminho correto da sua imagem
         style={styles.logo}
       />
-      <Text style={styles.titulo}>Login</Text>
+      <Text style={styles.titulo}>Classifica Grãos</Text>
       <View style={styles.form}>
         <TextInput
           placeholder="Nome"
@@ -71,6 +71,7 @@ const styles = StyleSheet.create({
     marginBottom: 30
   },
   titulo: {
+    fontFamily:'Verdana',
     fontSize: 30,
     marginBottom: 20,
     alignSelf: 'center'
