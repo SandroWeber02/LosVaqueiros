@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-//Botao para os cards
+//Botao para os cards dois
 const botaoflutuante = ({ onPress,title }) => {
   return (
     <TouchableOpacity style={styles.fab} onPress={(onPress)}>
