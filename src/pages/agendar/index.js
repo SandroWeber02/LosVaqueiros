@@ -29,6 +29,7 @@ export default function Agendar() {
       justifyContent: 'center',
       alignItems: 'center',
     },
+    //Tela
     segundaTela: {
       backgroundColor: '#00B25A',
       height: 600,
