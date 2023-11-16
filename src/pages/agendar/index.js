@@ -22,6 +22,7 @@ export default function Agendar() {
     );
   }
   
+  //CSS
   const estilo = StyleSheet.create({
     container: {
       flex: 1,
