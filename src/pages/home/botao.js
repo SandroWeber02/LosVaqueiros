@@ -10,6 +10,7 @@ const botaoflutuante = ({ onPress,title }) => {
   );
 };
 
+//Estilo
 const styles = StyleSheet.create({
   fab: {
     position: 'absolute',
