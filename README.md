@@ -10,7 +10,7 @@
 
 # Qual solução oferece?📊📈
 
-## Com o gerenciamento de classificação, o agricultor, tem como visualizar o andamento de sua safra em tempo real, verificando como está o andamento da sua safra, e por meio de analise de classificação dos grãos, onde, atraves da Instrução Normativa 11/2007 que medem a qualidade do grãos (Soja) e defini se o produto está apto ou não para venda para o Comercial e para Exportar, além de poder fazer um comparativo dos dados com os dados de safras anteriores.
+## Com o gerenciamento de classificação, o agricultor, tem como visualizar o andamento de sua safra em tempo real, verificando como está o andamento da sua safra, e por meio de analise de classificação dos grãos, onde, atraves da Instrução Normativa 11/2007 que medem a qualidade do grãos (Soja) e definir se o produto está apto ou não para venda para o Comercial e para Exportar, além de poder fazer um comparativo dos dados com os dados de safras anteriores.
 
 🦄🔰 **Tecnologias Envolvidas:**
 
