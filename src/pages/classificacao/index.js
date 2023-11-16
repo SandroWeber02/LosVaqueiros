@@ -1,27 +1,39 @@
-import { View, Text } from 'react-native'
-import React, { useState } from 'react'
-import { TextInput } from 'react-native-web'
+// MeuFormulario.js
+import React, { useState } from 'react';
+import { View, Text, TextInput, Button } from 'react-native';
+import { Input } from 'react-native-elements';
 
-const valor = [valorVdd, setValorVdd] = useState('')
+const Classificacao = () => {
+  const [valorInput, setValorInput] = useState('');
+  const [resultado, setResultado] = useState('');
 
-function Resultado(){
-Resultado = Amostra/Impureza*100 ;
-}
-export default function classificacao() {
+  const calcularResultado = () => {
+    // Lógica de cálculo com base no valor do input
+    const resultadoCalculado = parseFloat(valorInput) * 2; // Exemplo simples, substitua pela lógica desejada
+    setResultado(resultadoCalculado.toString());
+  };
+
   return (
     <View>
-      <Text>classificacao</Text>
-      <Text>Amostra(g)</Text>
-      <TextInput name= "ValorAmostra"></TextInput>
+      <Input
+        label="Amostra"
+        placeholder="Valor em (g)"
+        keyboardType="numeric"
+        value={valorInput}
+        onChangeText={(text) => setValorInput(text)}
+      />
+      <Button title="Calcular" onPress={calcularResultado} />
 
-      <Text>Impureza(g)</Text>
-      <TextInput></TextInput>
-
-      <Text>Resultado(%)</Text>
-      <TextInput valeu="Resultado"></TextInput>
-
-
-      A/I*100 = R
+      {resultado !== '' && (
+        <Input
+          label="Resultado"
+          placeholder="Resultado"
+          value={resultado}
+          editable={false}
+        />
+      )}
     </View>
-  )
-}
+  );
+};
+
+export default Classificacao;
