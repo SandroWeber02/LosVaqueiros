@@ -43,13 +43,13 @@ export default function BemVindo() {
           onChangeText={(text) => setSenha(text)}
         />
         <TouchableOpacity style={styles.botao} onPress={() => {
-            if(nome === 'zezinho' || senha === '123'){
+            if(!nome === 'zezinho' || senha === '123'){
               navigation.navigate('home')
             } else {
               alert('Usuário ou senha incorreto');
             }
             }}>
-          <Text style={styles.textoBotao}>Login</Text>
+          <Text style={styles.textoBotao}>Entrar</Text>
         </TouchableOpacity>
       </View>
     </View>

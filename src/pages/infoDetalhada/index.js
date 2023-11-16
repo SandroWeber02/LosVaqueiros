@@ -1,14 +1,15 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, Image } from 'react-native';
 
 
 export default function infoDetalhada() {
     return(
         <>
         <View styles={estilo.container}>
-            <Text>
-                PARRRAAAA
-            </Text>
+          <Image
+          
+          />
+        
         </View>
         </>
     );

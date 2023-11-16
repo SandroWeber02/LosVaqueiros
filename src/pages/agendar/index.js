@@ -8,7 +8,9 @@ export default function Agendar() {
         <>
         <View styles={estilo.container}>
             <Text style={estilo.tituloAgendamento}>Agende sua classificação</Text>
-            <Image></Image>
+            <Image
+            source={require('../assets/blog_tdc_lavourasoja.jpg')}
+            />
 
             <View style={estilo.segundaTela}>
               <TextInput style={estilo.inputTeste} placeholder='Nome Completo'></TextInput>
