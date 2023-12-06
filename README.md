@@ -21,10 +21,15 @@
 
 
 *Equipe de Desenvolvimento:*
-### Bruno Ramalho
+### Bruno Ramalho 
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brunoramalho01)
 ### Eduardo Reis
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sevennx)
 ### Sandro Weber
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SandroWeber02)
 ### James Viana
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rafajames)
 ### Samuel Wesley
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WESLEYx7)
 
 
